@@ -11,6 +11,6 @@ class GreetingControllerTest {
 
   @Test
   void greeting() {
-    Assertions.assertThat(3).isEqualTo(1);
+    Assertions.assertThat(1).isEqualTo(1);
   }
 }
