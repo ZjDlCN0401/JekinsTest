@@ -43,7 +43,7 @@ public class StudentControllerTest {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON))
             .andExpect(jsonPath("$[0].id").value(1))
-            .andExpect(jsonPath("$[0].name").value("Bob"))
+            .andExpect(jsonPath("$[0].name").value("Bob123"))
             .andExpect(jsonPath("$",hasSize(4)))
             .andDo(print());
   }
